@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/HPASharp/v14/.suo
+/HPASharp/bin/Debug
+/HPASharp/obj/Debug
+/HPAsharp.Tests/obj/Debug
+/packages
