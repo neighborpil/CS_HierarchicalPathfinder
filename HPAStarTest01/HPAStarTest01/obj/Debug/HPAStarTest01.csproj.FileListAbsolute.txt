@@ -1,2 +1,3 @@
 C:\Work\Git\ExodusSimulator\Algorithms\HPAStarTest01\HPAStarTest01\bin\Debug\HPAStarTest01.exe.config
 C:\Work\Git\ExodusSimulator\Algorithms\HPAStarTest01\HPAStarTest01\obj\Debug\HPAStarTest01.csprojResolveAssemblyReference.cache
+C:\Study\Git\CS_HierarchicalPathfinder\HPAStarTest01\HPAStarTest01\bin\Debug\HPAStarTest01.exe.config

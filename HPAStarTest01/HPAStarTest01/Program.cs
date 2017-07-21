@@ -1,4 +1,6 @@
 ﻿using HPAStarTest01.Factories;
+using HPAStarTest01.Graph;
+using HPAStarTest01.Infrastructure;
 using HPAStarTest01.Passabilities;
 using System;
 using System.Collections.Generic;
@@ -42,6 +44,11 @@ namespace HPAStarTest01
 
         }
 
-        private static List<IPathNode> HierarchicalSearch(HierarchicalMap hierarchicalMap, int maxLeve, ConcreteMap concreteMap, )
+        private static List<IPathNode> HierarchicalSearch(HierarchicalMap hierarchicalMap, int maxLeve,
+            ConcreteMap concreteMap, Position startPosition, Position endPosition)
+        {
+            HierarchicalMapFactory factory = new HierarchicalMapFactory();
+            Id<AbstractNode> startAbsNode = factory.InsertAbstractNode(hierarchicalMap, startPosition);
+        }
     }
 }
